@@ -36,3 +36,9 @@ input[type="text"] {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+
+#clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
