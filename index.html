@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,14 @@
   <div class="jumbotron">
     <div class="container">
       <!-- CLOCK -->
-      <div id='clock'>Clock</div>
+      <div class="clock">
+        <script type="text/javascript">
+          document.write ('<p>It is currently: <span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
+          if (document.getElementById) onload = function () {
+    	     setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+          }
+        </script>
+      </div>
       <!-- HEADER -->
       <h1>Hello, Hilary.</h1>
       <!-- SUB HEAD -->
