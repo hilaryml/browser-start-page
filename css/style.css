@@ -39,8 +39,10 @@ input[type="text"] {
   padding-bottom: 10px;
 }
 
-#clock {
+.clock {
   display: flex;
   justify-content: center;
   align-items: center;
+  font: 200 2em "Times New Roman";
+  color: rgb(150, 170, 160);
 }
