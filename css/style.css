@@ -1,0 +1,14 @@
+.jumbotron {
+  background-image: url("../images/IMG_0667_1024.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
