@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("../images/IMG_0667_1024.jpg");
+  background-image: url("../images/IMG_9312_1024.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -29,6 +29,8 @@ h3 {
 }
 
 input[type="text"] {
+  color: rgb(150, 170, 160);
+  font: "Times New Roman";
   background: transparent;
   border: none;
   height: 22px;
