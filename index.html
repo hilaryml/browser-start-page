@@ -4,19 +4,14 @@
     <meta charset="UTF-8">
     <title>Welcome</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/index.js"></script>
   </head>
   <body>
     <div class="jumbotron">
       <div class="container">
-        <!-- CLOCK -->
-        <div class="clock">
-          <script type="text/javascript">
-            document.write ('<p>It is currently: <span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
-            if (document.getElementById) onload = function () {
-      	     setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
-            }
-          </script>
-        </div>
+        <!-- DATE AND TIME -->
+        <div id="clock"></div>
         <!-- HEADER -->
         <h1>Hello, Hilary.</h1>
         <!-- SUB HEAD -->
@@ -25,6 +20,15 @@
         <form method="get" action="http://www.google.com/search">
           <input type="text" name="q" size="31" maxlength="255" value="" />
         </form>
+        <!-- SOCIAL MEDIA LINKS AND ICONS -->
+        <div class="social-media">
+          <a href="https://www.facebook.com/" id="facebook"><img src="images/facebook.png"></a>
+          <a href="https://www.instagram.com/" id="instagram"><img src="images/instagram.png"></a>
+          <a href="https://www.pinterest.com/" id="pinterest"><img src="images/pinterest.png"></a>
+          <a href="https://youtube.com/" id="github"><img src="images/youtube.png"></a>
+          <a href="https://www.linkedin.com/" id="linkedin"><img src="images/linkedin.png"></a>
+          <a href="https://github.com/" id="github"><img src="images/github.png"></a>
+        </div>
       </div>
     </div>
   </body>

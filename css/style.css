@@ -16,14 +16,16 @@
 h1 {
 	font: 600 5em "Times New Roman";
 	color: #ffffff;
-	padding-bottom: 10px;
+  padding-top: 30px;
+	padding-bottom: 30px;
 	margin: 0 0 5px;
 }
 
 h3 {
 	font: 200 2em "Times New Roman";
-	color: #89a7a7;
+	color: #ffffff;
 	margin: 0 0 5px;
+  padding-bottom: 30px;
 }
 
 input[type="text"] {
@@ -37,10 +39,10 @@ input[type="text"] {
   padding-bottom: 10px;
 }
 
-.clock {
+#clock {
   display: flex;
   justify-content: center;
   align-items: center;
   font: 200 2em "Times New Roman";
-  color: #759898;
+  color: #ffffff;
 }
